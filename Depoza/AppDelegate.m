@@ -158,7 +158,7 @@ NSString * const StatusBarTappedNotification = @"statusBarTappedNotification";
 #pragma mark - AppDelegate -
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Fabric with:@[CrashlyticsKit]];
+//    [Fabric with:@[CrashlyticsKit]];
 
     [self setUpPersistence];
     [self setUpAppConfiguration];
